@@ -12,7 +12,7 @@
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "server.js" },
-    { "src": "/login", "dest": "server.js" },
+    { "src": "/login", "dest": "public/login.html" },
     { "src": "/(.*)", "dest": "public/$1" }
   ],
   "headers": [
